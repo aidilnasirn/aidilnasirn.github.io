@@ -1,0 +1,69 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Silkscreen', cursive;
+}
+:root {
+    --bg-primary: rgb(15, 132, 199);
+    --bg-secondary: #eaeaea;
+    --text-primary: #f7f7f7;
+    --text-secondary: #222222;
+    --icons-bg-primary: tomato;
+    --icons-bg-secondary: #777777;
+}
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-primary);
+}
+.wraper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+.card {
+    border: 1px solid white;
+    background-color: var(--bg-secondary);
+    color: var(--text-secondary);
+    padding: 35px;
+    margin: 8px;
+    box-shadow: 2px 2px 2px 3px rgb(0, 0, 0, 0.6);
+}
+
+.title {
+    font-size: 2em;
+}
+
+.icons{
+    font-size: 24px;
+    color: var(--icons-bg-primary);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.text-center {
+    text-align: center;
+}
+
+.describtion {
+    font-size: .5em;
+}
+
+.btn {
+    margin-top: 16px;
+    padding: 7px;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    background: none;
+    color: black;
+    
+}
+
+.btn:hover {
+    background-color: var(--bg-primary);
+    color: white;
+    --ms-transform: rotate(5deg);
+    transform: rotate(5deg);
+    transition: 0.3s;
+}
